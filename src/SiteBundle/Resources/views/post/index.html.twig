@@ -19,7 +19,7 @@
                 <td><a href="{{ path('admin_post_show', { 'id': post.id }) }}">{{ post.id }}</a></td>
                 <td>{% if post.created %}{{ post.created|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{{ post.title }}</td>
-                <td>{{ post.content }}</td>
+                <td>{{ post.content|nl2br }}</td>
                 <td>
                     <ul>
                         <li>
