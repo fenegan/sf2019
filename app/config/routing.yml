@@ -1,0 +1,10 @@
+site:
+    resource: "@SiteBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+swagg:
+    resource: "@SwaggBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
